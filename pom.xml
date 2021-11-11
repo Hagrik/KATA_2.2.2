@@ -29,7 +29,6 @@
             <scope>provided</scope>
         </dependency>
 
-
         <dependency>
             <groupId>org.thymeleaf</groupId>
             <artifactId>thymeleaf-spring5</artifactId>
@@ -57,10 +56,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
                 <configuration>
-                    <source>16.0.2</source>
-                    <target>16.0.2</target>
+                    <source>16.0.1</source>
+                    <target>16.0.1</target>
                 </configuration>
             </plugin>
         </plugins>

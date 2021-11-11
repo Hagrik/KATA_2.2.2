@@ -1,21 +1,12 @@
 package web.model;
 
-import org.springframework.stereotype.Component;
-
 import java.util.List;
 
-@Component
 public class Car {
 
     private String model;
     private String engineType;
     private int mileage;
-    private List<Car> carList = List.of(
-            new Car("Mercedes GLA", "v4", 10000),
-            new Car("Mercedes GLC", "v6", 20000),
-            new Car("Audi a6", "v4", 100000),
-            new Car("Jeep", "v8", 5000),
-            new Car("Pontiac", "v8", 100));
 
     public Car() {
     }
@@ -50,13 +41,6 @@ public class Car {
         this.mileage = mileage;
     }
 
-    public List<Car> getCarList() {
-        return carList;
-    }
-
-    public void setCarList(List<Car> carList) {
-        this.carList = carList;
-    }
 
     @Override
     public String toString() {

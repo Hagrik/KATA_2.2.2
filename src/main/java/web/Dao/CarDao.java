@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface CarDao {
 
-    List<Car> carCount(int number);
+    List<Car> getCarList();
 }
